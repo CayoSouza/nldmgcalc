@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NL Damage Calculation</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<script type="text/javascript" src="js/dmg-calc.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<main>
+		<section class="flex-container">
+			<div class="flex-item">
+				<header class="page-header">
+					<h1>Night Lord Damage Calculation</h1>
+				</header>
+			</div>
+			<img src="img/doge-dmg.jpg">
+			<div class="flex-item">
+				<div class="input-group">
+					<label for="luk" class="label label-primary">Total LUK (with MW)</label>
+					<input type="number" name="luk" class="form-control" maxlength="4">
+				</div>
+				<div class="input-group">
+					<label for="weaponAtt" class="label label-primary">Total Weapon Attack</label>
+					<input type="number" name="weaponAtt" class="watt form-control">
+				</div>
+				<div class="input-group">		
+					<label for="fullBuffedGelt" class="label label-info">Full buffed: Gelt+Echo</label>
+					<input type="number" name="fullBuffedGelt" disabled="true" class="form-control">
+				</div>
+				<div class="input-group">		
+					<label for="fullBuffedNari" class="label label-info">Full buffed: Nari+Echo</label>
+					<input type="number" name="fullBuffedNari" disabled="true" class="form-control">
+				</div>
+			</div>
+			<div class="flex-item">
+				<iframe width="800" height="600" src="https://www.youtube.com/embed/miomuSGoPzI" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<audio autoplay>
+  				<source src="chicken-attack.mp4" type="audio/mpeg">
+			</audio>
+		</section>
+	</main>
+</body>
+</html>

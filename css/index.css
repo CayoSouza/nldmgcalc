@@ -1,0 +1,30 @@
+body {
+	font-family: 'Cinzel', serif;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.flex-item {
+	width: auto;
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 20px;
+}
+
+.form-control {
+	font-size: 30px;
+	text-align: center;
+}
+
+img {
+	margin-top: -2em;
+	margin-bottom: 1em;
+	border-radius : 50%;
+	height: 200px;
+	width: 200px;
+}
